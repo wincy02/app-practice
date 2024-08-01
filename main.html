@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        app page
+    </title>
+</head>
+<body>
+    <div class="main-content">
+        <div class="image">
+            <img src="pic1.png", alt="some random picture" style="width: 400px; height: 180px;">
+        </div>
+        
+        <div class="circles">
+            <div class="c1" onclick="store_num(1,this)">1</div>
+            <div class="c2" onclick="store_num(2,this)">2</div>
+            <div class="c3" onclick="store_num(3,this)">3</div>
+            <div class="c4" onclick="store_num(4,this)">4</div>
+            <div class="c5" onclick="store_num(5,this)">5</div>
+            <div class="c6" onclick="store_num(6,this)">6</div>
+            <div class="c7" onclick="store_num(7,this)">7</div>
+            <div class="c8" onclick="store_num(8,this)">8</div>
+
+
+        </div>
+
+        <div class="input">
+            <input type="text" id="numberInput">
+            <button onclick="confirm()">Confirm</button>
+           
+
+        </div>
+        <div class="display" id="display">display</div>
+        <div class="nav-box">
+            <div class="nav">
+                <button onclick="home()">Home</button>
+                <button onclick="goMe()">Me</button>
+            </div>
+    
+
+        </div>
+
+    
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
